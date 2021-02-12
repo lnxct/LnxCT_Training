@@ -331,4 +331,76 @@ examples:
 sudo chown root:bhavin abc.txt
 sudo chown root:root abc.txt
 ```
-test
+| git int | if your directory is not in git repository then initialize with git int. | 
+|----|---------------------------------------------------|
+```
+git int
+examples:
+git int
+```
+
+| git config | add user name to your git repository. | 
+|----|---------------------------------------------------|
+```
+git config --global user.name "<username>"
+examples:
+git config --global user.name "bhavin patel"
+```
+
+| git config | add email address to your git repository. | 
+|----|---------------------------------------------------|
+```
+git config --global email.name "<email_id>"
+examples:
+git config --global user.name "bhavin@gmail.com"
+```
+
+| git clone | connect your repository and clone in local(copy path in .http). | 
+|----|---------------------------------------------------|
+```
+git clone -- "path"
+examples:
+git clone --"https://github.com/dipenpatel235/LinuxTraining.git"
+```
+
+| git clone | connect your repository and clone in local(copy path in .http). | 
+|----|---------------------------------------------------|
+```
+git clone -- "path"
+examples:
+git clone --"https://github.com/dipenpatel235/LinuxTraining.git"
+```
+
+| git pull | Download the data from your online repository to local | 
+|----|---------------------------------------------------|
+```
+git pull
+examples:
+git pull
+```
+
+| git status | check the status of your pulled/updated data. | 
+|----|---------------------------------------------------|
+```
+git status
+examples:
+git status
+```
+
+| git commit | Commit your file to git. | 
+|----|---------------------------------------------------|
+```
+git commit [option] <"comment name">
+examples:
+git commit -m "sample add"
+```
+
+| git push | update your code in your online repository. | 
+|----|---------------------------------------------------|
+```
+git push
+examples:
+git push
+```
+
+
