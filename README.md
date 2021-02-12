@@ -110,20 +110,6 @@ examples:
 userdel dipen
 userdel bhavin
 ```
-useradd <usr_name>
-examples:
-useradd dipen
-useradd bhavin
-```
-
-| userdel  | it’s used for delete user.   |   |   |
-|----|---------------------------------------------------|---|---|
-```
-userdel <usr_name>
-examples:
-userdel dipen
-userdel bhavin
-```
 
 | usermod  | it’s used for modify user directory,expiry. comment, etc...   |   |   |
 |----|---------------------------------------------------|---|---|
@@ -131,8 +117,7 @@ userdel bhavin
 usermod [option] <usr_name>
 examples:
 usermod -e 02/12 dipen
-usermod -l bhavin
-```/12 dipen
+usermod -l bhavin/12 dipen
 usermod -l bhavin
 ```
 
