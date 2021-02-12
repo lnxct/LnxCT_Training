@@ -346,4 +346,4 @@ tar [option] [owner]:[group] <file_name>
 examples:
 sudo chown root:bhavin abc.txt
 sudo chown root:root abc.txt
-
+```
