@@ -198,8 +198,7 @@ sed 's/bhavin/dharmesh/g' abc
 sed 's/unix/linux/g' /etc/home/bhavin/abc.txt
 ```
 
-| awk  | Awk is a scripting language used for manipulating data and generating reports. The awk command programming language requires no compiling, and allows  the user to use variables, numeric functions, string functions, and  logical operators. 
-    |   |   |
+| awk  | Awk is a scripting language used for manipulating data and generating reports. The awk command programming language requires no compiling, and allows  the user to use variables, numeric functions, string functions, and  logical operators.     |   |   |
 |----|---------------------------------------------------|---|---|
 ```
 awk [option] 'selection_critearia {action}' <file_name>
