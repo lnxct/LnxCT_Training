@@ -405,3 +405,10 @@ examples:
 git push
 ```
 
+| scp | copy file one system to another system.| 
+|----|---------------------------------------------------|
+```
+scp [option] <source location> <destination>
+examples:
+scp -r ./patel ubuntu@192.168.1.148:/home/dell/
+```
