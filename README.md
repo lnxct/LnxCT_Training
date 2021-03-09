@@ -412,3 +412,96 @@ scp [option] <source location> <destination>
 examples:
 scp -r ./patel ubuntu@192.168.1.148:/home/dell/
 ```
+### Linux Network command 
+
+| ping | used to check reachability. | 
+|----|---------------------------------------------------|
+```
+ping <ip address or website name>
+examples:
+ping 192.168.56.105
+ping google.com
+```
+| route | used to check reachability. | 
+|----|---------------------------------------------------|
+```
+route
+examples:
+route
+```
+
+| netstat | to check open ports. | 
+|----|---------------------------------------------------|
+```
+netstat -tulnp
+examples:
+netstat -tulnp
+```
+
+| scp | secure copy. | 
+|----|---------------------------------------------------|
+```
+scp <source path> file name <destination path>
+examples:
+scp /home/Dowmloads/abc.txt user@192.168.56.105:/home/user
+```
+
+| ssh | connect one system to another. | 
+|----|---------------------------------------------------|
+```
+ssh <username@ip address>
+examples:
+ssh user@192.168.1.1
+```
+| curl | used for transfer your data to or server using protocols. | 
+|----|---------------------------------------------------|
+```
+curl [option] [URL]
+examples:
+curl https://google.com
+curl gmail.com
+```
+| iptables | iptables s a command line interface used to set up and maintain tables for the Netfilter firewall for IPv4, included in the Linux kernel. | 
+|----|---------------------------------------------------|
+```
+iptables --table TABLE -A/-C/-D... CHAIN rule --jump Target
+examples:
+iptables -t filter --append INPUT -j DROP
+iptables -t filter --delete INPUT 2
+```
+| telnet | used for check local pc port is open or not. | 
+|----|---------------------------------------------------|
+```
+telnet <ip address> port no
+examples:
+telnet 192.168.1.189 22
+telnet 192.168.1.189 80
+```
+| traceroute | used for check the path of connection. | 
+|----|---------------------------------------------------|
+```
+traceroute <ip address>
+examples:
+telnet 192.168.1.189 
+telnet google.com
+```
+
+| wget | Wget is the non-interactive network downloader which is used to download files from the server even when the user has not logged on to the system. | 
+|----|---------------------------------------------------|
+```
+wget [OPTIONs] [URL]
+examples:
+wget http://example.com/sample.php
+wget -b http://www.example.com/samplepage.php (download in background)
+```
+
+| nmap | used for security audits and Detailed information of all the IPs activated on your network. | 
+|----|---------------------------------------------------|
+```
+nmap <ip_adress>
+examples:
+nmap 192.168.1.189
+nmap 192.168.1.127
+
+```
+
