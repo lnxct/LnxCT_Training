@@ -4,16 +4,6 @@
 
 ### Basic Linux Command
 
-| cp | copy file to another name or on another directory. |
-|----|---------------------------------------------------|
-```
-cp source_file destination_file
-examples:
-cp a.txt /home/thepenguina/desktop/a.txt
-cp a.txt /home/thepenguina/desktop/
-cp a.txt /home/thepenguina/desktop/b.txt
-```
-
 | help | show the help and sub command of command. |
 |----|---------------------------------------------------|
 ```
@@ -22,6 +12,15 @@ examples:
 mv --help
 vi --help
 mkdir --help
+```
+
+| man | It’s show command manual. |
+|----|---------------------------------------------------|
+```
+man <cmd_name>
+examples:
+man ssh
+man mkdir
 ```
 
 | man | It’s show command manual. |
@@ -248,6 +247,16 @@ mv a.txt /home/thepenguina/desktop/b.txt
 mv abc.txt hello.txt
 ```
 
+| cp | copy file to another name or on another directory. |
+|----|---------------------------------------------------|
+```
+cp source_file destination_file
+examples:
+cp a.txt /home/thepenguina/desktop/a.txt
+cp a.txt /home/thepenguina/desktop/
+cp a.txt /home/thepenguina/desktop/b.txt
+```
+
 | touch | used for create file and update time of existing file. |
 |----|---------------------------------------------------|
 ```
@@ -288,6 +297,15 @@ alias abc
 - :n(1,2,3,.....) number of row you want  to jump
 -  / search
 ```
+| namo | create new file and update existing. |
+|----|---------------------------------------------------|
+```
+ctrl + o to save fie or overwrite
+ctrl + k cut the selected text
+ctrl + u past copied content
+ctrl + w serch the keywpord
+ctrl + t replace keyword single or all the file
+```
 
 | chmod | it’s used for set the read, write and execute permission for user,groups,and other users. |
 |----|---------------------------------------------------|
@@ -296,6 +314,15 @@ chmod [option] <file_name>
 examples:
 chmod 740 bhavin
 chmod 760 abc
+```
+
+| chown | change owenership |
+|----|---------------------------------------------------|
+```
+tar [option] [owner]:[group] <file_name>
+examples:
+sudo chown root:bhavin abc.txt
+sudo chown root:root abc.txt
 ```
 
 | tar | create an archive file or directory. |
@@ -322,15 +349,6 @@ for executing the file/directory
 –	for tar.bz2/(cvjf)
 –	for tar.tbz (cvfj)
 –	for permission check (tvf)
-```
-
-| chown | change owenership |
-|----|---------------------------------------------------|
-```
-tar [option] [owner]:[group] <file_name>
-examples:
-sudo chown root:bhavin abc.txt
-sudo chown root:root abc.txt
 ```
 
 | git int | if your directory is not in git repository then initialize with git int. | 
@@ -405,13 +423,6 @@ examples:
 git push
 ```
 
-| scp | copy file one system to another system.| 
-|----|---------------------------------------------------|
-```
-scp [option] <source location> <destination>
-examples:
-scp -r ./patel ubuntu@192.168.1.148:/home/dell/
-```
 ### Linux Network command 
 
 | ping | used to check reachability. | 
@@ -430,6 +441,32 @@ examples:
 route
 ```
 
+| traceroute | used for check the path of connection. | 
+|----|---------------------------------------------------|
+```
+traceroute <ip address>
+examples:
+telnet 192.168.1.189 
+telnet google.com
+```
+
+| ssh | connect one system to another. | 
+|----|---------------------------------------------------|
+```
+ssh <username@ip address>
+examples:
+ssh user@192.168.1.1
+```
+
+| nmap | used for security audits and Detailed information of all the IPs activated on your network. | 
+|----|---------------------------------------------------|
+```
+nmap <ip_adress>
+examples:
+nmap 192.168.1.189
+nmap 192.168.1.127
+```
+
 | netstat | to check open ports. | 
 |----|---------------------------------------------------|
 ```
@@ -446,13 +483,7 @@ examples:
 scp /home/Dowmloads/abc.txt user@192.168.56.105:/home/user
 ```
 
-| ssh | connect one system to another. | 
-|----|---------------------------------------------------|
-```
-ssh <username@ip address>
-examples:
-ssh user@192.168.1.1
-```
+
 | curl | used for transfer your data to or server using protocols. | 
 |----|---------------------------------------------------|
 ```
@@ -461,6 +492,7 @@ examples:
 curl https://google.com
 curl gmail.com
 ```
+
 | iptables | iptables s a command line interface used to set up and maintain tables for the Netfilter firewall for IPv4, included in the Linux kernel. | 
 |----|---------------------------------------------------|
 ```
@@ -469,6 +501,7 @@ examples:
 iptables -t filter --append INPUT -j DROP
 iptables -t filter --delete INPUT 2
 ```
+
 | telnet | used for check local pc port is open or not. | 
 |----|---------------------------------------------------|
 ```
@@ -476,14 +509,6 @@ telnet <ip address> port no
 examples:
 telnet 192.168.1.189 22
 telnet 192.168.1.189 80
-```
-| traceroute | used for check the path of connection. | 
-|----|---------------------------------------------------|
-```
-traceroute <ip address>
-examples:
-telnet 192.168.1.189 
-telnet google.com
 ```
 
 | wget | Wget is the non-interactive network downloader which is used to download files from the server even when the user has not logged on to the system. | 
@@ -495,13 +520,5 @@ wget http://example.com/sample.php
 wget -b http://www.example.com/samplepage.php (download in background)
 ```
 
-| nmap | used for security audits and Detailed information of all the IPs activated on your network. | 
-|----|---------------------------------------------------|
-```
-nmap <ip_adress>
-examples:
-nmap 192.168.1.189
-nmap 192.168.1.127
 
-```
 
