@@ -297,7 +297,7 @@ alias abc
 - :n(1,2,3,.....) number of row you want  to jump
 -  / search
 ```
-| namo | create new file and update existing. |
+| nano | create new file and update existing. |
 |----|---------------------------------------------------|
 ```
 ctrl + o to save fie or overwrite
