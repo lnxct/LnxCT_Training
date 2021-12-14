@@ -1,5 +1,5 @@
 # LnxCT_Training
-Its all about Train Fresher
+Its all about Train Developers On Linux,Python,Devops,and Cloud Technology.
 
 
 #### Table of contents
