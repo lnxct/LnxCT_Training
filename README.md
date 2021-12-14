@@ -1,4 +1,4 @@
-# LinuxTraining
+# LnxCT_Training
 ## Basic Linux Command
 ## File System
 
