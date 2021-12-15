@@ -6,7 +6,7 @@ Its all about Train Developers On Linux,Python,Devops,and Cloud Technology.
 
 - [LnxCT_Training](#lnxct_training)
       - [Table of contents](#table-of-contents)
-- [LnxCT Training Diagram](#lnxct-training-diagram)
+- [LnxCT Training Plan](#lnxct-training-plan)
   - [Linux](#linux)
     - [Ubuntu Desktop Installation](#ubuntu-desktop-installation)
     - [Linux Basic Commands](#linux-basic-commands)
@@ -19,14 +19,22 @@ Its all about Train Developers On Linux,Python,Devops,and Cloud Technology.
     - [CentOS vs Ubuntu](#centos-vs-ubuntu)
     - [CentOs Server Installation](#centos-server-installation)
     - [Linux Test](#linux-test)
-  - [Linux Shell Script](#linux-shell-script)
+  - [Shell Script](#shell-script)
   - [Nginx](#nginx)
     - [Nginx Installation,Configuration](#nginx-installationconfiguration)
     - [Nginx SSL Certificate and Reverse Proxy](#nginx-ssl-certificate-and-reverse-proxy)
+  - [Database](#database)
+    - [MySQL/MariaDB](#mysqlmariadb)
+      - [MySQL/MariaDB Installation](#mysqlmariadb-installation)
+      - [MySQL/MariaDB Commands](#mysqlmariadb-commands)
+    - [PostgreSQL](#postgresql)
+      - [PostgreSQL Installation](#postgresql-installation)
+      - [PostgreSQL Commands](#postgresql-commands)
+    - [Terraform](#terraform)
 
 
 
-# LnxCT Training Diagram
+# LnxCT Training Plan
 ![LnxCT-Training-Plan](./doc_screenshots/LnxCT_Training.jpg)
 
 ## Linux
@@ -123,7 +131,7 @@ You must have complete knowledge of Linux(Ubuntu/CentOS),All Commands ,Directory
 you need to  Perform above types of 5 Linux Test and check your Linux Knowledge.
 
 
-## Linux Shell Script
+## Shell Script
 ```
 https://linuxconfig.org/bash-scripting-tutorial
 https://linuxhint.com/30_bash_script_examples/
@@ -150,3 +158,46 @@ https://www.scaleway.com/en/docs/tutorials/nginx-reverse-proxy/
 **End Result**
 You must have knowledge of How to Install,Configure,Create Certificate,Rule Writing, Proxy Pass
 
+
+## Database
+### MySQL/MariaDB
+#### MySQL/MariaDB Installation
+```
+https://www.linuxtechi.com/install-mariadb-in-ubuntu/
+```
+
+#### MySQL/MariaDB Commands
+```
+https://www.tecmint.com/learn-mysql-mariadb-for-beginners/
+https://www.tecmint.com/mysqladmin-commands-for-database-administration-in-linux/
+```
+
+**End Result**
+You must have knowledge of How to Install,Create Database, CRUD Operation Using commands Query,backup and restore database
+
+### PostgreSQL
+#### PostgreSQL Installation
+
+```
+https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart
+```
+
+#### PostgreSQL Commands
+```
+https://www.geeksforgeeks.org/postgresql-psql-commands/
+https://www.tecmint.com/backup-and-restore-postgresql-database/
+```
+
+**End Result**
+You must have knowledge of How to Install,Create Database, CRUD Operation Using commands Query,backup and restore database
+
+
+### Terraform
+```
+https://www.youtube.com/watch?v=l5k1ai_GBDE
+https://learn.hashicorp.com/collections/terraform/aws-get-started
+https://www.youtube.com/watch?v=SLB_c_ayRMo
+https://github.com/easyawslearn/Terraform-Tutorial
+```
+**End Result**
+You must have knowledge of How to Create IAAS using Terraform for AWS,Azure,GCP.
