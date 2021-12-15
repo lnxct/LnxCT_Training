@@ -11,6 +11,7 @@ Its all about Train Developers On Linux,Python,Devops,and Cloud Technology.
     - [Ubuntu Desktop Installation](#ubuntu-desktop-installation)
     - [Linux Basic Commands](#linux-basic-commands)
     - [Linux Advanced Commands](#linux-advanced-commands)
+    - [Networking](#networking)
     - [Linux Vi Editor Commands](#linux-vi-editor-commands)
     - [Linux Git Usage](#linux-git-usage)
     - [Install Required Tools](#install-required-tools)
@@ -30,6 +31,18 @@ Its all about Train Developers On Linux,Python,Devops,and Cloud Technology.
     - [PostgreSQL](#postgresql)
       - [PostgreSQL Installation](#postgresql-installation)
       - [PostgreSQL Commands](#postgresql-commands)
+      - [Database connectivity Tool](#database-connectivity-tool)
+  - [Python](#python)
+    - [Python/Pip Installation and Virtual Env](#pythonpip-installation-and-virtual-env)
+    - [Core Python and OOPs](#core-python-and-oops)
+    - [HTML,CSS,JS](#htmlcssjs)
+    - [Flask](#flask)
+    - [DJango](#django)
+    - [Selenium Automation](#selenium-automation)
+  - [DevOps](#devops)
+    - [Docker](#docker)
+    - [Jenkins](#jenkins)
+    - [Ansible](#ansible)
     - [Terraform](#terraform)
 
 
@@ -62,6 +75,16 @@ https://haydenjames.io/90-linux-commands-frequently-used-by-linux-sysadmins/
 ```
 **End Result**
 You must have knowledge of all above advance commands
+
+### Networking
+```
+https://www.redhat.com/sysadmin/sysadmin-essentials-networking-basics
+https://www.javatpoint.com/linux-networking-commands
+https://wiki.teltonika-networks.com/view/Private_and_Public_IP_Addresses
+https://wiki.teltonika-networks.com/view/Network_Address_Translation
+```
+**End Result**
+You must have knowledge of Static/Dynamic and Public/Private IP and Network. 
 
 ### Linux Vi Editor Commands
 ```
@@ -191,6 +214,72 @@ https://www.tecmint.com/backup-and-restore-postgresql-database/
 **End Result**
 You must have knowledge of How to Install,Create Database, CRUD Operation Using commands Query,backup and restore database
 
+#### Database connectivity Tool 
+```
+https://dbeaver.io/download/
+```
+
+## Python
+### Python/Pip Installation and Virtual Env
+```
+https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-an-ubuntu-20-04-server
+```
+
+### Core Python and OOPs
+```
+https://www.programiz.com/python-programming/first-program
+```
+**End Result**
+You must have knowledge about Python and OOPs Concept.
+
+
+### HTML,CSS,JS
+```
+https://www.w3schools.com/html/
+https://www.w3schools.com/css/default.asp
+https://www.w3schools.com/js/default.asp
+```
+**End Result**
+You must have knowledge about HTML,CSS,JS
+
+### Flask 
+```
+https://www.javatpoint.com/flask-tutorial
+```
+**End Result**
+You must have knowledge about Rest api development using Flask
+
+
+### DJango
+```
+https://www.tutorialspoint.com/django/index.htm
+https://www.enterprisedb.com/postgres-tutorials/how-use-postgresql-django
+https://medium.com/@omaraamir19966/connect-django-with-mysql-database-f946d0f6f9e3
+```
+**End Result**
+You must have knowledge about Rest api and Web development and connection with different database like MySQL,PostgreSQL.
+
+### Selenium Automation
+```
+https://codeburst.io/python-selenium-tutorial-2021-57162fa620ac
+https://blog.testproject.io/2020/06/16/selenium-python-beginners-tutorial-for-automation-testing/
+```
+**End Result**
+You must have knowledge about How to Write Automation Test cases/Scraping.
+
+## DevOps
+
+### Docker
+```
+```
+
+### Jenkins
+```
+```
+
+### Ansible
+```
+```
 
 ### Terraform
 ```
@@ -201,3 +290,4 @@ https://github.com/easyawslearn/Terraform-Tutorial
 ```
 **End Result**
 You must have knowledge of How to Create IAAS using Terraform for AWS,Azure,GCP.
+
