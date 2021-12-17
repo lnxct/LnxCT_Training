@@ -44,6 +44,10 @@ Its all about Train Developers On Linux,Python,Devops,and Cloud Technology.
       - [Docker Overview](#docker-overview)
       - [Docker Installation](#docker-installation)
       - [Docker Images/Container/Dockerfile](#docker-imagescontainerdockerfile)
+    - [Docker Compose](#docker-compose)
+      - [Docker Compose Overview](#docker-compose-overview)
+      - [Docker Compose Installation](#docker-compose-installation)
+      - [Docker Compose File and Link service with each other container](#docker-compose-file-and-link-service-with-each-other-container)
     - [Jenkins](#jenkins)
     - [Jenkins Installation](#jenkins-installation)
     - [Ansible](#ansible)
@@ -134,8 +138,9 @@ https://www.youtube.com/watch?v=8JJ101D3knE
 |----------	|---------------------------------------------------------------------------------------------------------------------------------------------------------------	|
 | 1 Day    	| You must have knowledge of how to install ubuntu server on VirtualBox and How to access VirtualBox Server Using SSH and Network Adapter Like NAT/HOST/BRIDGE. 	|
 
-```
 * install ubuntu server into VirtualBox
+
+```
 https://ubuntu.com/tutorials/install-ubuntu-server#1-overview
 ```
 
@@ -304,6 +309,10 @@ https://blog.testproject.io/2020/06/16/selenium-python-beginners-tutorial-for-au
 ## DevOps
 
 ### Docker
+| Timeline 	| End Result                                                                                                                                                    	|
+|----------	|---------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| 3 Days   	| You must have knowledge about Docker Image/Container/Volume Mount/docker commands/How to copy from local system to docker container/sh into docker container. 	|
+
 #### Docker Overview
 ```
 https://docs.docker.com/get-started/overview/
@@ -318,32 +327,57 @@ https://stackify.com/docker-tutorial/
 https://docker-curriculum.com/
 ``` 
 
+### Docker Compose
+| Timeline 	| End Result                                                                                                                                                                                  	|
+|----------	|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| 3 Days   	| You must have knowledge about How to Write docker-compose.yml file and its related command and how to link container with each other and volume mount and network and environment value set 	|
+
+#### Docker Compose Overview
+```
+https://docs.docker.com/compose/
+```
+#### Docker Compose Installation
+```
+https://docs.docker.com/compose/install/
+```
+#### Docker Compose File and Link service with each other container
+```
+https://docs.docker.com/compose/gettingstarted/
+https://docs.docker.com/samples/django/
+``` 
+
+
 ### Jenkins
+| Timeline 	| End Result                                                                                 	|
+|----------	|--------------------------------------------------------------------------------------------	|
+| 3 Days   	| You must have knowledge about How to do nginx proxy pass.how to create job/ci-cd pipeline. 	|
+
 ### Jenkins Installation
 ```
 https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-20-04
 https://www.digitalocean.com/community/tutorials/how-to-configure-jenkins-with-ssl-using-an-nginx-reverse-proxy-on-ubuntu-20-04
 https://mohitgoyal.co/2017/02/11/create-a-first-basic-job-in-jenkins/
 ```
-**End Result**
-You must have knowledge about How to do nginx proxy pass.how to create job/ci-cd pipeline.
 
 
 ### Ansible
+| Timeline 	| End Result                                                                     	|
+|----------	|--------------------------------------------------------------------------------	|
+| 3 Days   	| You must have knowledge about how to execute some commands in multiple server. 	|
+
 ```
 https://www.guru99.com/ansible-tutorial.html
 https://linuxconfig.org/ansible-tutorial-for-beginners-on-linux
 ```
-**End Result**
-You must have knowledge about how to execute some commands in multiple server.
 
 ### Terraform
+| Timeline 	| End Result                                                                       	|
+|----------	|----------------------------------------------------------------------------------	|
+| 7 Days   	| You must have knowledge of How to Create IAAS using Terraform for AWS,Azure,GCP. 	|
+
 ```
 https://www.youtube.com/watch?v=l5k1ai_GBDE
 https://learn.hashicorp.com/collections/terraform/aws-get-started
 https://www.youtube.com/watch?v=SLB_c_ayRMo
 https://github.com/easyawslearn/Terraform-Tutorial
 ```
-**End Result**
-You must have knowledge of How to Create IAAS using Terraform for AWS,Azure,GCP.
-
