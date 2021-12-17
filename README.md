@@ -49,7 +49,7 @@ Its all about Train Developers On Linux,Python,Devops,and Cloud Technology.
       - [Docker Compose Installation](#docker-compose-installation)
       - [Docker Compose File and Link service with each other container](#docker-compose-file-and-link-service-with-each-other-container)
     - [Jenkins](#jenkins)
-    - [Jenkins Installation](#jenkins-installation)
+      - [Jenkins Installation](#jenkins-installation)
     - [Ansible](#ansible)
     - [Terraform](#terraform)
 
@@ -352,7 +352,7 @@ https://docs.docker.com/samples/django/
 |----------	|--------------------------------------------------------------------------------------------	|
 | 3 Days   	| You must have knowledge about How to do nginx proxy pass.how to create job/ci-cd pipeline. 	|
 
-### Jenkins Installation
+#### Jenkins Installation
 ```
 https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-20-04
 https://www.digitalocean.com/community/tutorials/how-to-configure-jenkins-with-ssl-using-an-nginx-reverse-proxy-on-ubuntu-20-04
