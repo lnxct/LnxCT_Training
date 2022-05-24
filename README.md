@@ -7,6 +7,7 @@ Its all about Train Developers On Linux,Python,Devops,and Cloud Technology.
 - [LnxCT_Training](#lnxct_training)
       - [Table of contents](#table-of-contents)
 - [LnxCT Training Plan](#lnxct-training-plan)
+  - [General Important Things!!!](#general-important-things)
   - [Linux](#linux)
     - [Ubuntu Desktop Installation](#ubuntu-desktop-installation)
     - [Linux Basic Commands](#linux-basic-commands)
@@ -57,6 +58,10 @@ Its all about Train Developers On Linux,Python,Devops,and Cloud Technology.
 
 # LnxCT Training Plan
 ![LnxCT-Training-Plan](./doc_screenshots/LnxCT_Training.jpg)
+
+## General Important Things!!!  
+As a programmer respectable gross typing speed should be atleast around **40 wpm** (Words per Minute) with an accuracy of atleast 85%.
+
 
 ## Linux
 ### Ubuntu Desktop Installation
